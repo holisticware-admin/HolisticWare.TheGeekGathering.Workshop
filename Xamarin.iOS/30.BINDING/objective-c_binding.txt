@@ -1,0 +1,52 @@
+#BINDING OBJECTIVE-C TO C#
+
+#PREQUISITES
+-> XCode 5
+-> Xamarin studio
+-> Objective Sharpie
+
+
+1. create objective-c static library
+	-> http://www.raywenderlich.com/41377/creating-a-status-library-in-ios-tutorial
+		
+		- TARGETS - YourTargetName - Build Phases - Copy Files
+			-> inside this property you need to have your header file (.h)
+
+	-> YOU NEED TO COMBINE STATIC LIB FOR DEVICE AND FOR SIMULATOR (different arch)
+
+2. create Xamarin iOS project (for testing binded library)
+	-> Xamarin iOS single view storyboard application
+	-> Xamarin iOS binding project (same solution)
+
+3. Objective Sharpie for binding
+	-> as of XCode5(iOS7) Apple encourages use of "modules" for framework
+	import. 
+
+			#import <UIKit/UIKit.h>
+			@import UIKit
+
+	-> For now (07.10.2013) Objective Sharpie doesn't recognize this
+
+	This can be fairly complex process so be sure to read this:
+	http://docs.xamarin.com/guides/ios/advanced_topics/binding_objective-c/binding_objc_libs
+
+	http://docs.xamarin.com/guides/ios/advanced_topics/binding_objective-c/binding_walkthrough
+
+	-> If binding is succesfull, save file as *.cs 
+		- *.cs file is binded .h file.
+
+	-> normalize *.cs file, more info on the links above.
+	-> Objective-C is case sensitive, so method names and property's under
+	attribute's must be spelled exactly as in .h file!
+
+4. Select Xamarin binding project and add *.a file (alt + cmd + a)
+	-> select copy file
+
+	-> open ApiDefinition.cs 
+		- copy binded code (*.cs file from previous step)
+
+5. Select iOS single view project
+	-> add iOS binding project as reference
+	-> using YourNameSpace
+
+6. Test library :)
