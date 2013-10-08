@@ -1,0 +1,78 @@
+#IBOutlet & IBActions
+
+1.	IBOutlet 
+		-> same as property in .Net
+	IBAction
+		-> "Target - Action" design pattern, event in .Net
+
+2.	Objective-c has .h and .m file
+		-> In Objective-C you can have "class extensions", that would
+		be something like private methods (not declared in .h file)
+
+		-> Xamarin is not supporting this out of the box
+			- so be sure when adding outlets or actions to 
+			add them inside .h file for proper parsing.
+
+3.	XCode Interface Builder
+		-> add Button element to view
+		-> open Assistant Editor 
+		(icon, top right, first group of 3 icons, middle one)
+			- this is where you add outlets or actions
+			- be sure to select .h file
+
+4.	Sample
+
+	@interface IBOutlets_IBActionsViewController : UIViewController {
+	
+	}
+
+	@end
+
+5.	control + drag from button to somewhere between } and @end
+		-> choose Outlet or Action
+
+		//Outlet or property
+		@property (retain, nonatomic) IBOutlet UIButton *buttonClickMe;
+		
+		//Action - "Target - Action", event
+		- (IBAction)buttonClickMeAction:(id)sender;
+
+6.	save XCode (command + s)
+
+7.	accessing UI element
+		-> outlet as any other property
+			- buttonClickMe. something
+			- events:
+				buttonClickMe.TouchUpInside += (object sender, EventArgs e) => {
+
+					//do something
+
+				};
+
+		-> action as partial method
+		partial void buttonClickMeAction (NSObject sender)
+		{
+			//do something
+		}
+
+8.	possible problems
+		-> show connected events, outlets ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
