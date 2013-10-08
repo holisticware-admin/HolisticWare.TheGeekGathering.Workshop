@@ -1,0 +1,97 @@
+#NAVIGATION
+
+##storyboard
+1.	canvas on which you layout your ui
+		- it is possible to combine more than one story board
+		- can be used with NIB (XIBs)
+		- can be used with code
+		- Apple prefered way of building interfaces
+			- use XIB or code if needed
+		- less code for generic stuff like navigation
+		- good preview of what app will look like
+		- table view prototype cells, huge improvement over XIB or code
+		- segue
+
+2.	three UIViewControllers, A,B,C
+		- from A navigate to B or C
+			B - push
+			C - modal
+
+		- two buttons
+
+3.	UINavigationController is needed for any kind of navigation
+		- can be one or more
+			- push is drill down
+		- XCode -> select first view (A)
+			- Editor - Embed In - Navigation Controller
+
+		- XCode -> select third view (C)
+			- Editor - Embed In - Navigation Controller
+
+4.	control + click 
+		->first button drag to second view (B) choose Push
+			- 3 types of navigation (push,modal,custom)
+		->second button drag to third view (c) choose Modal
+			- save XCode, test with Xamarin
+
+5.	push vs. modal
+		-> push - pushing controllers on top, drilling
+			- automatic navigation back
+
+		-> modal - take over whole screen, need to implement return
+			- DissmissViewController method
+
+6.	every view controller that we add on canvas in story board
+	needs to have backing class.
+		-> click on every view
+			- enable Utilities (right side bar)
+			- third icon from the left Identity Inspector
+			- Custom Class filed
+				- enter desired name  
+
+7.	implement dismissal method in ViewControllerC
+
+##xib
+1.	every window is separate XIB file (xml)
+		- navigation needs to be done manually
+		- easier to work with if teams
+		- harder to see whole application
+
+2.	inside AppDelegate
+
+			// our first view
+			ViewControllerB viewControllerB = new ViewControllerB ();
+			
+			// root navigation controller with our view controller
+			UINavigationController rootNavigationController = new UINavigationController (viewControllerB);
+
+			// our navigation controller as root navigation controller
+			window.RootViewController = rootNavigationController;
+
+3.	inside first view controller "VIEW A" - xibViewController.cs
+
+			//outlet plus event
+			buttonGoToViewB.TouchUpInside += (object sender, EventArgs e) => {
+
+				ViewControllerB vcB = new ViewControllerB();
+				this.NavigationController.PushViewController(vcB);
+			};
+
+
+			//action
+			partial void buttonGoToViewC (NSObject sender)
+			{
+				ViewControllerC vcC = new ViewControllerC();
+				UINavigationController navController = new UINavigationController(vcC);
+				this.NavigationController.PresentViewController(navController,true,null);
+			}
+
+4. 
+
+
+
+
+
+
+
+
