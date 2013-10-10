@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XamariniOS.Universal.OpenGL.Xample.AppDelegate">
+    <Position X="0.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>AppDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XamariniOS.Universal.OpenGL.Xample.EAGLView">
+    <Position X="6.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>ASKAFAAAAAgAAAgEYAAIACACAAABACQwAEAAAARECAE=</HashCode>
+      <FileName>EAGLView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XamariniOS.Universal.OpenGL.Xample.Application">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XamariniOS.Universal.OpenGL.Xample.OpenGLViewController">
+    <Position X="3.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAAAEAgAAAAABAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>OpenGLViewController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

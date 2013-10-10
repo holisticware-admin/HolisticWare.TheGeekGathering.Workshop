@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamariniOS.UniversalStorybo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamariniOS.UniversalStoryboard.Tabbed.Xample", "XamariniOS.UniversalStoryboard.Tabbed.Xample\XamariniOS.UniversalStoryboard.Tabbed.Xample.csproj", "{E81FE8E4-5715-4ED5-AB00-631CD34DD254}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{E6D0BCB3-142E-41D1-B451-90C41D1688C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -427,6 +429,30 @@ Global
 		{E81FE8E4-5715-4ED5-AB00-631CD34DD254}.Release|Mixed Platforms.ActiveCfg = Release|iPhone
 		{E81FE8E4-5715-4ED5-AB00-631CD34DD254}.Release|Mixed Platforms.Build.0 = Release|iPhone
 		{E81FE8E4-5715-4ED5-AB00-631CD34DD254}.Release|Mixed Platforms.Deploy.0 = Release|iPhone
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Ad-Hoc|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Ad-Hoc|Mixed Platforms.Build.0 = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.AppStore|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.AppStore|Mixed Platforms.Build.0 = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E6D0BCB3-142E-41D1-B451-90C41D1688C1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

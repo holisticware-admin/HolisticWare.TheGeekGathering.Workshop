@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XamariniOS.UniversalStoryboard.SingleView.Xample.AppDelegate">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAoAAAAAAQAAAAAAAAAAKAAAAAA=</HashCode>
+      <FileName>AppDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XamariniOS.UniversalStoryboard.SingleView.Xample.Application">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XamariniOS.UniversalStoryboard.SingleView.Xample.XamariniOS_UniversalStoryboard_SingleView_XampleViewController">
+    <Position X="2.75" Y="2" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAACAAEAoQAAACAAAAAAAAAQAACAAA=</HashCode>
+      <FileName>XamariniOS.UniversalStoryboard.SingleView.XampleViewController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XamariniOS.Universal.Utility.Xample.AppDelegate">
+    <Position X="0.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>AppDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XamariniOS.Universal.Utility.Xample.FlipsideViewController">
+    <Position X="7.25" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQIAAAAAAAAAAAgAAAACAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>FlipsideViewController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XamariniOS.Universal.Utility.Xample.Application">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XamariniOS.Universal.Utility.Xample.MainViewController">
+    <Position X="3.75" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAIAAAAAACAAAAgQAAACAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>MainViewController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

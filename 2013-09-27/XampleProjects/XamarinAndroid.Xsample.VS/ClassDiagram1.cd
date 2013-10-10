@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XamarinAndroid.Xsample.VS.Activity1">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Activity1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XamarinAndroid.Xsample.VS.Resource">
+    <Position X="0.5" Y="2.5" Width="2" />
+    <NestedTypes>
+      <Class Name="XamarinAndroid.Xsample.VS.Resource.Attribute" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="XamarinAndroid.Xsample.VS.Resource.Drawable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="XamarinAndroid.Xsample.VS.Resource.Id" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="XamarinAndroid.Xsample.VS.Resource.Layout" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="XamarinAndroid.Xsample.VS.Resource.String" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
