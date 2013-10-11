@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/linearLayout1"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+		<Button
+		android:id="@+id/button1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Button1"
+		/>
+		<Button
+		android:id="@+id/button2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Button2"
+		/>
+		<CheckBox
+		android:id="@+id/checkBox1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="CheckBox"
+		/>
+		<RadioButton
+		android:id="@+id/radioButton1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="RadioButton"
+		/>
+		<Spinner
+		android:id="@+id/spinner1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		</Spinner>
+		<DatePicker
+		android:id="@+id/datePicker1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		</DatePicker>
+		<EditText
+		android:id="@+id/editText1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="EditText"
+		android:textSize="18sp"
+		/>
+		<ImageSwitcher
+		android:id="@+id/imageSwitcher1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		</ImageSwitcher>
+		<ListView
+		android:id="@+id/listView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		</ListView>
+		<AutoCompleteTextView
+		android:id="@+id/autoCompleteTextView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="AutoComplete"
+		android:textSize="18sp"
+		/>
+		<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="TextView"
+		/>
+		<GridView
+		android:id="@+id/gridView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:numColumns="5"
+		android:columnWidth="20px"
+		>
+		</GridView>
+</LinearLayout>
